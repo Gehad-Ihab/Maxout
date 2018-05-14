@@ -1,0 +1,158 @@
+
+.img{position: relative;
+left:0px;
+bottom: 114px;
+z-index: -1;
+opacity: 0.8;
+opacity:0.8;
+  background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+#logo {
+  float: left;
+ 
+  border-right: 1px solid #e3e3e8;
+  transition: .5s all;
+}
+#logo:hover {
+  color: #fafafa;
+  background-color: #333;
+}
+nav {
+  float: left;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2.2em 2em;
+  font-family: 'Russo One', sans-serif;
+  
+}
+nav ul li {
+  display: inline;
+  padding: 0 .4em;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.3em;
+  transition: .5s color;
+}
+
+#current {
+  color: #ff4629;
+ 
+}
+#fb:hover {
+  color: #3b5998;
+}
+
+.mo{text-decoration: none;}
+
+#twitter:hover {
+  color: #00acee;
+
+}
+#inst:hover {
+  color: #00acee;
+
+}
+
+#gg:hover {
+  color: #00acee;
+
+}
+
+#twitter{float: right;
+left:680px;
+position: relative;
+}
+
+#fb{float:right;
+left:575px;
+position: relative}
+
+#inst{float:right;
+left:770px;
+position: relative}
+
+#gg{float:right;
+left:665px;
+position: relative}
+
+
+
+
+.searchform {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+     width: 40%;
+    position: relative;
+    right: 120px;
+    top:20px;
+}
+label, input {
+  vertical-align: baseline;
+  color: #737373;
+}
+label {
+  margin: 0.125em 0.125em 0 0;
+  float: right;
+      right: 40px;
+    position: relative;
+  
+}
+input[type="search"] {
+  border: 2px solid white;
+  border-width: 0 0 3px;
+  background-color: transparent;
+  font: 22px "Open Sans", sans-serif;
+  padding: 0.125em 0.225em;
+  width: 85%;
+  float: left;
+  
+}
+input[type="search"]:focus {
+  color: #E18728;
+  border-color: #E18728;
+  outline: none;
+}
+.s1{position: relative;
+margin-left: 50px;
+bottom:180px;
+float: left;
+
+}
+
+
+.s2{position: relative;
+float:right;
+right:700px;
+bottom:180px;
+}
+
+.s3{position: relative;
+float:right;
+right: 90px;
+bottom:180px;
+}
+
+.s4{position: relative;
+float:right;
+left: 480px;
+bottom:180px;
+}
+
+.h12{position: relative;
+color: #025fbf;
+margin-left:50px;
+
+font-family: 'Ribeye Marrow', cursive;}
+
+.dd{background-color: black;
+color: black;
+}
